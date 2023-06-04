@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculadora</title>
+<script src="calculadora.js"></script>
+</head>
+<body>
+<h1>Calculadora</h1>
+
+<input type="text" id="resultado" readonly>
+
+<table>
+<tr>
+<td><button onclick="agregarNumero(7)">7</button></td>
+<td><button onclick="agregarNumero(8)">8</button></td>
+<td><button onclick="agregarNumero(9)">9</button></td>
+<td><button onclick="operacion('+')">+</button></td>
+</tr>
+<tr>
+<td><button onclick="agregarNumero(4)">4</button></td>
+<td><button onclick="agregarNumero(5)">5</button></td>
+<td><button onclick="agregarNumero(6)">6</button></td>
+<td><button onclick="operacion('-')">-</button></td>
+</tr>
+<tr>
+<td><button onclick="agregarNumero(1)">1</button></td>
+<td><button onclick="agregarNumero(2)">2</button></td>
+<td><button onclick="agregarNumero(3)">3</button></td>
+<td><button onclick="operacion('*')">*</button></td>
+</tr>
+<tr>
+<td><button onclick="borrar()">C</button></td>
+<td><button onclick="agregarNumero(0)">0</button></td>
+<td><button onclick="calcular()">=</button></td>
+<td><button onclick="operacion('/')">/</button></td>
+</tr>
+</table>
+
+</body>
+</html>
