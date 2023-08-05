@@ -1,3 +1,10 @@
-* {
-    color: mediumblue;
+h1 {
+  color: mediumblue;
+  font-family: Verdana;
 }
+
+p {
+  color: purple;
+  font-size: 15px;
+}
+
