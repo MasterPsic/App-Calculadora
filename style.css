@@ -3,8 +3,18 @@ h1 {
   font-family: Verdana;
 }
 
+
+body {
+  display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+background: url(imagenes/sunset.jpg) no-repeat center center/cover;
+}
+
+/* footer */
 p {
   color: purple;
   font-size: 15px;
 }
-
