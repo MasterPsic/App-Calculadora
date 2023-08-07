@@ -1,20 +1,49 @@
+/* Estilos grales */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lato', sans-serif;
+}
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(imagenes/sunset.jpg) no-repeat center center/cover;
+}
+
+/* contenido */
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 80vh;
+  max-width: 600px;
+  background-color: greenyellow;
+  border: 4px solid black;
+}
+
 h1 {
+  font-size: 3rem;
+  width: 100%;
+  margin: 20px 10px;
   color: mediumblue;
   font-family: Verdana;
 }
 
 
-body {
-  display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-text-align: center;
-background: url(imagenes/sunset.jpg) no-repeat center center/cover;
-}
-
 /* footer */
 p {
   color: purple;
-  font-size: 15px;
+  font-size: 30px;
 }

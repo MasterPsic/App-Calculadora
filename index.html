@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Calculadora</title>
-<script src="calculadora.js"></script>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<h1>Calculadora</h1>
+  <head>
+    <title>APPCalculadora</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<input type="text" id="resultado" readonly>
+  <body>
+    <div id="contenedor">  
+      <h1>Calculadora</h1>
 
-<table>
-<tr>
-<td><button onclick="agregarNumero(7)">7</button></td>
-<td><button onclick="agregarNumero(8)">8</button></td>
-<td><button onclick="agregarNumero(9)">9</button></td>
-<td><button onclick="operacion('+')">+</button></td>
-</tr>
-<tr>
-<td><button onclick="agregarNumero(4)">4</button></td>
-<td><button onclick="agregarNumero(5)">5</button></td>
-<td><button onclick="agregarNumero(6)">6</button></td>
-<td><button onclick="operacion('-')">-</button></td>
-</tr>
-<tr>
-<td><button onclick="agregarNumero(1)">1</button></td>
-<td><button onclick="agregarNumero(2)">2</button></td>
-<td><button onclick="agregarNumero(3)">3</button></td>
-<td><button onclick="operacion('*')">*</button></td>
-</tr>
-<tr>
-<td><button onclick="borrar()">C</button></td>
-<td><button onclick="agregarNumero(0)">0</button></td>
-<td><button onclick="calcular()">=</button></td>
-<td><button onclick="operacion('/')">/</button></td>
-</tr>
-</table>
+      <input type="text" id="resultado" readonly>
 
-</body>
+      <table>
+      <tr>
+      <td><button onclick="agregarNumero(7)">7</button></td>
+      <td><button onclick="agregarNumero(8)">8</button></td>
+      <td><button onclick="agregarNumero(9)">9</button></td>
+      <td><button onclick="operacion('+')">+</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="agregarNumero(4)">4</button></td>
+      <td><button onclick="agregarNumero(5)">5</button></td>
+      <td><button onclick="agregarNumero(6)">6</button></td>
+      <td><button onclick="operacion('-')">-</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="agregarNumero(1)">1</button></td>
+      <td><button onclick="agregarNumero(2)">2</button></td>
+      <td><button onclick="agregarNumero(3)">3</button></td>
+      <td><button onclick="operacion('*')">*</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="borrar()">C</button></td>
+      <td><button onclick="agregarNumero(0)">0</button></td>
+      <td><button onclick="calcular()">=</button></td>
+      <td><button onclick="operacion('/')">/</button></td>
+      </tr>
+      </table>
 
-><footer>
-	<p>Tu sonrisa es lo que mejor te queda</p>
-</footer>
+      <p>"Tu sonrisa es lo que mejor te queda"</p>
+    </div>
+    <script src="calculadora.js"></script>
+
+  </body>
 
 </html>
